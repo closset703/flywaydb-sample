@@ -10,6 +10,5 @@ class Account(
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     val id: Long = 0,
-    val name: String,
-    val phone: String
+    val name: String
 )

@@ -25,6 +25,9 @@ dependencies {
 	implementation("com.h2database:h2")
 	runtimeOnly("mysql:mysql-connector-java")
 	providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
+
+	implementation("org.flywaydb:flyway-core:6.4.2")
+
 	testImplementation("org.springframework.boot:spring-boot-starter-test") {
 		exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
 	}
